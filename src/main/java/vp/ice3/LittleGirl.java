@@ -15,6 +15,7 @@ public class LittleGirl {
         Client client = clients.get(nextClientIndex);
         System.out.println("Little girl delivered bread to " + client.getName());
         client.breadReady();
+          // Move to the next client in order 
         nextClientIndex = (nextClientIndex + 1) % clients.size();
     }
 }
