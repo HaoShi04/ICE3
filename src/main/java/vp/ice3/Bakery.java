@@ -12,7 +12,6 @@ public class Bakery extends Thread  {
     public void run() {
         while (true) {
             try {
-      
                 int time = 1000 + random.nextInt(9000);
                 Thread.sleep(time);
                 System.out.println("Bread is ready!");
@@ -22,6 +21,4 @@ public class Bakery extends Thread  {
             }
         }
     }
-    
-    
 }
