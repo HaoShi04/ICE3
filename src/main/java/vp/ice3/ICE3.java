@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 public class ICE3 {
-
+// Create 5 clients, and the girl will deliver bread in the order of the client list.
      public static void main(String[] args) {
         Client peter = new Client("Peter");
         Client paula = new Client("Paula");
